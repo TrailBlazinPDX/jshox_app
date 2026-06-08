@@ -1,0 +1,40 @@
+name: jshox_app
+description: JSHOX WebView App
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  webview_flutter: ^4.7.0
+  url_launcher: ^6.2.6
+  shared_preferences: ^2.2.3
+  connectivity_plus: ^5.0.0
+  flutter_cache_manager: ^3.3.0
+  share_plus: ^7.0.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^4.0.0
+  flutter_launcher_icons: ^0.13.1
+  flutter_native_splash: ^2.4.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - assets/icon.png
+
+flutter_launcher_icons:
+  ios: true
+  image_path: assets/icon.png
+  remove_alpha_ios: true
+
+flutter_native_splash:
+  color: "#ffffff"
+  color_dark: "#000000"
+  image: assets/icon.png
+  image_dark: assets/icon.png
+  ios: true
