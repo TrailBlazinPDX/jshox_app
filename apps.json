@@ -1,0 +1,39 @@
+{
+  "name": "JSHOX Apps",
+  "identifier": "com.trailblazinpdx.jshox",
+  "subtitle": "Webview Apps",
+  "description": "Custom app source featuring JSHOX webview application",
+  "iconURL": "https://raw.githubusercontent.com/TrailBlazinPDX/jshox_app/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+  "headerImage": "https://raw.githubusercontent.com/TrailBlazinPDX/jshox_app/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+  "website": "https://github.com/TrailBlazinPDX/jshox_app",
+  "contact": {
+    "twitter": "https://twitter.com/TrailBlazinPDX",
+    "email": "contact@example.com"
+  },
+  "apps": [
+    {
+      "name": "JSHOX",
+      "bundleIdentifier": "com.jshox.app",
+      "version": "1.0.0",
+      "versionDescription": "Production release with 12 features",
+      "subtitle": "Webview App for iOS & iPadOS",
+      "description": "JSHOX - Fast webview app for iPhone and iPad. Features haptic feedback, swipe navigation, smart caching, dark/light themes, offline support, and more.",
+      "category": "Utilities",
+      "downloadURL": "https://github.com/TrailBlazinPDX/jshox_app/releases/download/v1.0.0/jshox.ipa",
+      "screenshotURLs": [],
+      "iconURL": "https://raw.githubusercontent.com/TrailBlazinPDX/jshox_app/main/ios/Runner/Assets.xcassets/AppIcon.appiconset/Icon-App-1024x1024@1x.png",
+      "tintColor": "018084",
+      "size": 7857408,
+      "permissions": [
+        {
+          "type": "photos",
+          "usageDescription": "Access photos to share content"
+        },
+        {
+          "type": "location",
+          "usageDescription": "Location data for web content"
+        }
+      ]
+    }
+  ]
+}
